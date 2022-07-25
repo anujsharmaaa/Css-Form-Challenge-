@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.padding-bottom--15{
+    font-size: 30px;
+    font-weight: 900;
+   
+}
+
+input[type=submit]{
+    color: #ffff;
+    font-weight: bold;
+    background-color: #5469D4;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.reset-pass {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reset-pass a{
+    color: #4e78ee;
+}
+
+input{
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 28px;
+    border-color: rgba(128, 128, 128, 0.103);
+}
+
+
+#stripe-login{
+    margin-top: 30px;
+
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+
+h1 a{
+    color: #91dfe9;
+}
+
+.grid--50-50{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.reset-pass{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.reset-pass a{
+    color: #445ee0;
+}
+
+.ssolink{
+    font-size: 22px;
+    margin-bottom: 60px;
+    font-weight: bold;
+    color: #415de7;
+    text-align: center;
+ 
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link span a{
+    color: #415de7;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link span{
+    font-size: 18px;
+}
+
+.listing span{
+    font-size: 20px;
+    color: #fae1e9;
+    margin-right: 15px;
+}
+
+.listing span a{
+    color: #e5e0fd;
+    font-weight: bold;
+}
+
+
+.formbg-inner::before{
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    left: -75px;
+    height: 580px;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.37);
+}
+
+.formbg-inner{
+    width: 500px;
+    position: relative;
+}
+
